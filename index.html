@@ -13,51 +13,28 @@
 
     <style>
         :root {
-            --primary-color: #d97706;   /* Amber / Orange Industrial Tone */
+            --primary-color: #d97706;
             --primary-hover: #b45309;
-            --dark-color: #1e293b;      /* Slate Dark */
-            --accent-color: #0284c7;    /* Trust Blue */
+            --dark-color: #1e293b;
+            --accent-color: #0284c7;
         }
-        
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
             background-color: #f8fafc;
             color: #334155;
             padding-bottom: 70px;
         }
-
-        @media (min-width: 768px) {
-            body { padding-bottom: 0; }
-        }
-
-        /* Top Bar */
-        .top-bar {
-            background-color: #0f172a;
-            color: #94a3b8;
-            font-size: 0.875rem;
-        }
-
-        .navbar-brand-logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .navbar-brand-text {
-            font-size: 20px;
-            font-weight: bold;
-            color: #111827;
-        }
-        
-        /* Hero Section */
+        @media (min-width: 768px) { body { padding-bottom: 0; } }
+        .top-bar { background-color: #0f172a; color: #94a3b8; font-size: 0.875rem; }
+        .navbar-brand-logo { display: flex; align-items: center; gap: 10px; }
+        .navbar-brand-text { font-size: 20px; font-weight: bold; color: #111827; }
         .hero-section {
-            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://i.postimg.cc/VN42mmPy/PHOTO-2025-10-23-10-10-20.jpg');
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('photo1.jpg');
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 100px 0;
+            padding: 90px 0;
         }
-
         .hero-badge {
             background-color: rgba(217, 119, 6, 0.2);
             color: #fbbf24;
@@ -68,127 +45,56 @@
             font-weight: 600;
             display: inline-block;
         }
-
-        /* Feature Cards */
-        .feature-card {
-            border: none;
-            border-top: 4px solid var(--primary-color);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 24px rgba(0,0,0,0.08) !important;
-        }
-
-        /* Service Cards */
-        .service-card {
-            border: none;
-            border-radius: 12px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-        .service-card:hover {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-        }
-
-        /* Service Coverage Links Grid */
-        .location-link-card {
-            background-color: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 10px;
-            transition: all 0.25s ease;
-        }
-        .location-link-card:hover {
-            border-color: var(--primary-color);
-            transform: translateY(-3px);
-            box-shadow: 0 6px 15px rgba(217, 119, 6, 0.15);
-        }
-        .seo-link {
-            color: #334155;
-            font-size: 0.875rem;
-            font-weight: 500;
-            text-decoration: none;
-            display: block;
-            padding: 6px 0;
-            transition: color 0.2s;
-        }
-        .seo-link:hover {
-            color: var(--primary-color);
-            text-decoration: underline;
-        }
-
-        /* Buttons */
-        .btn-whatsapp {
-            background-color: #25D366;
-            color: white;
-            font-weight: 700;
-            border-radius: 50px;
-            padding: 12px 30px;
-            box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4);
-            transition: all 0.2s ease;
-        }
-        .btn-whatsapp:hover {
-            background-color: #1da851;
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        .btn-phone {
-            background-color: var(--primary-color);
-            color: white;
-            font-weight: 700;
-            border-radius: 50px;
-            padding: 12px 30px;
-            box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
-            transition: all 0.2s ease;
-        }
-        .btn-phone:hover {
-            background-color: var(--primary-hover);
-            color: white;
-            transform: translateY(-2px);
-        }
-
-        /* Mobile Sticky Footer Bar */
-        .mobile-bottom-bar {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            z-index: 9999;
+        .seo-location-btn {
             background: #ffffff;
-            border-top: 1px solid #e2e8f0;
-            padding: 10px 15px;
-            box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 10px 14px;
+            color: #334155;
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
         }
-
-        .faq-section {
-            background-color: #ffffff;
+        .seo-location-btn:hover {
+            background-color: #fef3c7;
+            border-color: var(--primary-color);
+            color: #92400e;
+            transform: translateY(-2px);
         }
-
+        .btn-whatsapp {
+            background-color: #25D366; color: white; font-weight: 700; border-radius: 50px; padding: 12px 30px;
+        }
+        .btn-whatsapp:hover { background-color: #1da851; color: white; }
+        .btn-phone {
+            background-color: var(--primary-color); color: white; font-weight: 700; border-radius: 50px; padding: 12px 30px;
+        }
+        .btn-phone:hover { background-color: var(--primary-hover); color: white; }
+        .mobile-bottom-bar {
+            position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999; background: #ffffff; border-top: 1px solid #e2e8f0; padding: 10px 15px;
+        }
         .accordion-button:not(.collapsed) {
             background-color: #fef3c7;
             color: #92400e;
-            font-weight: 600;
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(217, 119, 6, 0.5);
         }
     </style>
 </head>
 <body>
 
-    <!-- Top Contact Bar (Desktop) -->
+    <!-- Top Bar -->
     <div class="top-bar py-2 d-none d-md-block">
         <div class="container d-flex justify-content-between align-items-center">
-            <div>
-                <i class="fa-solid fa-location-dot me-2 text-warning"></i> Butterworth, Bukit Mertajam, Bayan Lepas, George Town & All Penang Areas
-            </div>
+            <div><i class="fa-solid fa-location-dot me-2 text-warning"></i> Serving All Penang Areas (Island & Mainland)</div>
             <div class="d-flex gap-4">
-                <div>
-                    <i class="fa-solid fa-phone me-2 text-warning"></i> 
-                    <a href="tel:0174315233" class="text-white text-decoration-none fw-bold me-1">017-431 5233</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-clock me-2 text-warning"></i> Mon - Sat: 8:30 AM - 6:00 PM
-                </div>
+                <div><i class="fa-solid fa-phone me-2 text-warning"></i> <a href="tel:0174315233" class="text-white text-decoration-none fw-bold">017-431 5233</a></div>
+                <div><i class="fa-solid fa-clock me-2 text-warning"></i> Mon - Sat: 8:30 AM - 6:00 PM</div>
             </div>
         </div>
     </div>
@@ -198,413 +104,118 @@
         <div class="container">
             <a class="navbar-brand text-decoration-none" href="#">
                 <div class="navbar-brand-logo">
-                    <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M50 10 L10 45 H25 V85 H75 V45 H90 Z" fill="#F39C12" />
-                        <rect x="42" y="30" width="7" height="7" fill="#FFFFFF" />
-                        <rect x="51" y="30" width="7" height="7" fill="#FFFFFF" />
-                        <rect x="42" y="39" width="7" height="7" fill="#FFFFFF" />
-                        <rect x="51" y="39" width="7" height="7" fill="#FFFFFF" />
-                        <text x="50" y="72" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">htk</text>
-                    </svg>
-                    <span class="navbar-brand-text">HTK Pintu Shutter</span>
+                    <span class="navbar-brand-text text-warning fw-bold">HTK</span>
+                    <span class="navbar-brand-text">Pintu Shutter Penang</span>
                 </div>
             </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto fw-semibold me-lg-3">
-                    <li class="nav-item"><a class="nav-link px-3" href="#why-us">Why Us</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#services">Our Services</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#service-areas">Service Areas</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#faq">FAQ</a></li>
-                </ul>
-                <div class="d-none d-lg-flex gap-2">
-                    <a href="tel:0174315233" class="btn btn-outline-dark btn-sm fw-bold px-3 py-2 rounded-pill">
-                        <i class="fa-solid fa-phone me-1 text-warning"></i> 017-431 5233
-                    </a>
-                    <a href="https://wa.me/60174315233?text=Hi,%20I%20would%20like%20to%20inquire%20about%20roller%20shutters%20in%20Penang" class="btn btn-whatsapp btn-sm">
-                        <i class="fa-brands fa-whatsapp me-1"></i> Get Quote
-                    </a>
-                </div>
+            <div class="d-flex gap-2">
+                <a href="tel:0174315233" class="btn btn-phone btn-sm me-2"><i class="fa-solid fa-phone me-1"></i> Call Us</a>
+                <a href="https://wa.me/60174315233" class="btn btn-whatsapp btn-sm"><i class="fa-brands fa-whatsapp me-1"></i> WhatsApp</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Banner Section -->
+    <!-- Hero Banner -->
     <header class="hero-section text-center">
         <div class="container">
-            <div class="hero-badge mb-3">
-                <i class="fa-solid fa-shield-halved me-1"></i> All-Penang Coverage Specialist
-            </div>
-            <h1 class="display-4 fw-bold mb-3">Roller Shutter Butterworth, Bayan Lepas & Penang CALL 017-4315233 HTK</h1>
-            <p class="lead mb-4 col-lg-8 mx-auto text-light">
-                Professional roller shutter supply, installation, and prompt repair services across Butterworth, Bukit Mertajam, Bayan Lepas, George Town, and all Penang locations.
-            </p>
-            
+            <div class="hero-badge mb-3"><i class="fa-solid fa-shield-halved me-1"></i> All Penang Coverage Specialist</div>
+            <h1 class="display-4 fw-bold mb-3">Roller Shutter Supply, Install & Repair Penang</h1>
+            <p class="lead mb-4 col-lg-8 mx-auto text-light">Professional roller shutter services for shops, factories, and residential properties across Penang Island and Seberang Perai.</p>
             <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                <a href="https://wa.me/60174315233?text=Hi,%20I%20would%20like%20to%20inquire%20about%20roller%20shutters%20in%20Penang" class="btn btn-whatsapp btn-lg">
-                    <i class="fa-brands fa-whatsapp me-2 fs-5"></i> WhatsApp Us
-                </a>
-                <a href="tel:0174315233" class="btn btn-phone btn-lg">
-                    <i class="fa-solid fa-phone me-2 fs-5"></i> Call: 017-431 5233
-                </a>
+                <a href="https://wa.me/60174315233?text=Hi,%20I%20need%20roller%20shutter%20services" class="btn btn-whatsapp btn-lg"><i class="fa-brands fa-whatsapp me-2"></i> WhatsApp 017-431 5233</a>
+                <a href="tel:0174315233" class="btn btn-phone btn-lg"><i class="fa-solid fa-phone me-2"></i> Call 017-431 5233</a>
             </div>
         </div>
     </header>
 
-    <!-- Why Choose Us / Value Proposition -->
-    <section id="why-us" class="py-5">
-        <div class="container py-4">
-            <div class="text-center mb-5">
-                <h6 class="text-warning fw-bold text-uppercase">Why Choose Us</h6>
-                <h2 class="fw-bold">Trusted Shutter Expert Across Penang Island & Seberang Perai</h2>
-            </div>
-            
-            <!-- Features Row -->
-            <div class="row g-4 mb-5">
-                <div class="col-md-4">
-                    <div class="card h-100 p-4 bg-white shadow-sm feature-card">
-                        <div class="card-body text-center">
-                            <i class="fa-solid fa-wrench fa-3x text-warning mb-3"></i>
-                            <h5 class="fw-bold">Island & Mainland Coverage</h5>
-                            <p class="text-muted mb-0">Fast response teams ready for installations and urgent repairs in Butterworth, Bukit Mertajam, Bayan Lepas, and beyond.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 p-4 bg-white shadow-sm feature-card">
-                        <div class="card-body text-center">
-                            <i class="fa-solid fa-truck-ramp-box fa-3x text-warning mb-3"></i>
-                            <h5 class="fw-bold">Supplied & Installed</h5>
-                            <p class="text-muted mb-0">Complete end-to-end solutions for factories, commercial shoplots, and residential properties throughout Penang.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card h-100 p-4 bg-white shadow-sm feature-card">
-                        <div class="card-body text-center">
-                            <i class="fa-solid fa-bolt-lightning fa-3x text-warning mb-3"></i>
-                            <h5 class="fw-bold">Prompt Emergency Repairs</h5>
-                            <p class="text-muted mb-0">Quick troubleshooting for jammed shutters, broken chains, and faulty automated motors anywhere in Penang.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Gallery Row -->
-            <div class="row text-center g-4">
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden h-100" style="border-radius: 12px;">
-                        <img src="photo1.jpg" alt="Roller Shutter Installation Penang" style="width: 100%; height: 220px; object-fit: cover;">
-                        <div class="card-body p-3">
-                            <h5 class="fw-bold mb-1">Quality Installation</h5>
-                            <p class="text-muted small mb-0">Butterworth & Mainland projects</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden h-100" style="border-radius: 12px;">
-                        <img src="photo2.jpg" alt="Roller Shutter Supplied and Installed" style="width: 100%; height: 220px; object-fit: cover;">
-                        <div class="card-body p-3">
-                            <h5 class="fw-bold mb-1">Supplied & Installed</h5>
-                            <p class="text-muted small mb-0">Bayan Lepas & Island coverage</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 shadow-sm overflow-hidden h-100" style="border-radius: 12px;">
-                        <img src="photo3.jpg" alt="Roller Shutter Repair Service Penang" style="width: 100%; height: 220px; object-fit: cover;">
-                        <div class="card-body p-3">
-                            <h5 class="fw-bold mb-1">Fast Repair Service</h5>
-                            <p class="text-muted small mb-0">Bukit Mertajam & all areas</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Project Photos Showcase -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h3 class="fw-bold text-center mb-4">Our Projects & Works</h3>
+            <div class="row g-4 text-center">
+                <div class="col-md-4"><img src="photo1.jpg" class="img-fluid rounded shadow-sm" alt="Roller Shutter Penang"></div>
+                <div class="col-md-4"><img src="photo2.jpg" class="img-fluid rounded shadow-sm" alt="Roller Shutter Installation"></div>
+                <div class="col-md-4"><img src="photo3.jpg" class="img-fluid rounded shadow-sm" alt="Roller Shutter Repair"></div>
             </div>
         </div>
     </section>
 
-    <!-- Services Offered -->
-    <section id="services" class="py-5 bg-light">
-        <div class="container py-4">
-            <div class="text-center mb-5">
-                <h6 class="text-warning fw-bold text-uppercase">Products Offered</h6>
-                <h2 class="fw-bold">Our Range of Roller Shutters</h2>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card service-card shadow-sm h-100">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fa-solid fa-bolt text-warning fs-3 me-3"></i>
-                                <h5 class="fw-bold mb-0">Motorized Roller Shutter</h5>
-                            </div>
-                            <p class="text-muted">Ideal for factories, warehouses, and large commercial spaces across Butterworth, Bayan Lepas, and industrial hubs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card service-card shadow-sm h-100">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fa-solid fa-hand text-warning fs-3 me-3"></i>
-                                <h5 class="fw-bold mb-0">Manual Push-Up Shutter</h5>
-                            </div>
-                            <p class="text-muted">Popular for shopfronts, commercial lots, and garages throughout George Town, Bukit Mertajam, and Penang towns.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card service-card shadow-sm h-100">
-                        <div class="card-body p-4">
-                            <div class="d-flex align-items-center mb-3">
-                                <i class="fa-solid fa-shield-virus text-warning fs-3 me-3"></i>
-                                <h5 class="fw-bold mb-0">Fire-Rated Shutter</h5>
-                            </div>
-                            <p class="text-muted">Safety-compliant, fire-resistant rolling shutters built to protect commercial and industrial properties state-wide.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 50 SEO Landing Pages Links Section -->
-    <section id="service-areas" class="py-5">
-        <div class="container py-4">
-            <div class="text-center mb-5">
-                <h6 class="text-warning fw-bold text-uppercase">Coverage & Specialist Services</h6>
-                <h2 class="fw-bold">Penang District Service Directory (50 Locations & Services)</h2>
-                <p class="text-muted col-lg-8 mx-auto">Browse specialized roller shutter installation, motor replacement, and fast repair landing pages according to your location in Penang.</p>
+    <!-- Collapsible Local Coverage Directory -->
+    <section id="service-areas" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h6 class="text-warning fw-bold text-uppercase">Local Coverage Directory</h6>
+                <h2 class="fw-bold">Select Your Penang Location</h2>
+                <p class="text-muted">Click below to expand and view our full service list across Penang.</p>
             </div>
 
-            <div class="row g-4">
-                <!-- Butterworth -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Butterworth</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-butterworth.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Butterworth</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-butterworth.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Butterworth</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-butterworth.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Butterworth</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-butterworth.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Butterworth</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-butterworth.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Butterworth</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Bayan Lepas -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Bayan Lepas</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-bayan-lepas.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Bayan Lepas</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-bayan-lepas.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Bayan Lepas</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-bayan-lepas.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Bayan Lepas</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-bayan-lepas.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Bayan Lepas</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-bayan-lepas.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Bayan Lepas</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Bukit Mertajam -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Bukit Mertajam</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-bukit-mertajam.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Bukit Mertajam</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-bukit-mertajam.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Bukit Mertajam</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-bukit-mertajam.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Bukit Mertajam</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-bukit-mertajam.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Bukit Mertajam</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-bukit-mertajam.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Bukit Mertajam</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- George Town -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">George Town</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-george-town.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance George Town</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-george-town.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter George Town</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-george-town.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter George Town</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-george-town.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter George Town</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-george-town.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty George Town</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Simpang Ampat -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Simpang Ampat</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-simpang-ampat.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Simpang Ampat</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-simpang-ampat.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Simpang Ampat</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-simpang-ampat.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Simpang Ampat</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-simpang-ampat.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Simpang Ampat</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-simpang-ampat.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Simpang Ampat</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Juru -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Juru</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-juru.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Juru</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-juru.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Juru</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-juru.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Juru</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-juru.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Juru</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-juru.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Juru</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Perai -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Perai</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-perai.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Perai</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-perai.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Perai</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-perai.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Perai</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-perai.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Perai</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-perai.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Perai</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Nibong Tebal -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Nibong Tebal</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-nibong-tebal.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Nibong Tebal</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-nibong-tebal.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Nibong Tebal</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-nibong-tebal.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Nibong Tebal</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-nibong-tebal.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Nibong Tebal</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-nibong-tebal.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Nibong Tebal</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Tanjung Tokong -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Tanjung Tokong</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-tanjung-tokong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Tanjung Tokong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-tanjung-tokong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Tanjung Tokong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-tanjung-tokong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Tanjung Tokong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-tanjung-tokong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Tanjung Tokong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-tanjung-tokong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Tanjung Tokong</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Jelutong -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="location-link-card p-4 h-100 shadow-sm">
-                        <div class="d-flex align-items-center mb-3">
-                            <i class="fa-solid fa-location-dot text-warning fs-4 me-2"></i>
-                            <h5 class="fw-bold mb-0">Jelutong</h5>
-                        </div>
-                        <ul class="list-unstyled mb-0">
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-repair-service-jelutong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Repair & Maintenance Jelutong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-motorized-shutter-jelutong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Motorized Shutter Jelutong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-manual-shutter-jelutong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Manual Push-Up Shutter Jelutong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-fire-rated-shutter-jelutong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Fire-Rated Shutter Jelutong</a></li>
-                            <li class="border-bottom border-light py-1"><a href="roller-shutter-industrial-shutter-jelutong.html" class="seo-link"><i class="fa-solid fa-angle-right me-2 text-warning small"></i>Industrial Heavy Duty Jelutong</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="faq-section py-5 bg-light">
-        <div class="container py-4">
-            <div class="text-center mb-5">
-                <h6 class="text-warning fw-bold text-uppercase">Support</h6>
-                <h2 class="fw-bold">Frequently Asked Questions</h2>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="accordion shadow-sm" id="faqAccordion">
-                        <div class="accordion-item border-0 mb-2 shadow-sm rounded">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                                    Which areas in Penang do you cover for roller shutter services?
-                                </button>
-                            </h2>
-                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body text-muted">
-                                    We cover all areas across Penang, including Butterworth, Bukit Mertajam, Bayan Lepas, George Town, Jelutong, Simpang Ampat, Juru, Nibong Tebal, Tanjung Tokong, and surrounding neighborhoods.
-                                </div>
+            <!-- Accordion Container -->
+            <div class="accordion col-lg-10 mx-auto" id="locationAccordion">
+                <div class="accordion-item shadow-sm border-0">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed fw-bold text-dark py-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLocations" aria-expanded="false" aria-controls="collapseLocations">
+                            <i class="fa-solid fa-map-location-dot text-warning me-2 fs-5"></i> Click Here to View All 50+ Service Areas in Penang
+                        </button>
+                    </h2>
+                    <div id="collapseLocations" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#locationAccordion">
+                        <div class="accordion-body bg-white p-4">
+                            <div class="row g-3">
+                                <!-- Location Cards Matching GitHub File Names -->
+                                <div class="col-6 col-md-4 col-lg-3"><a href="air-itam.html" class="seo-location-btn">Air Itam <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="alma.html" class="seo-location-btn">Alma <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bagan-ajam.html" class="seo-location-btn">Bagan Ajam <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bagan-jermal.html" class="seo-location-btn">Bagan Jermal <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bagan-lalang.html" class="seo-location-btn">Bagan Lalang <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="balik-pulau.html" class="seo-location-btn">Balik Pulau <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bandar-perda.html" class="seo-location-btn">Bandar Perda <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bandar-tasek-mutiara.html" class="seo-location-btn">Bandar Tasek Mutiara <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="batu-ferringhi.html" class="seo-location-btn">Batu Ferringhi <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="batu-kawan.html" class="seo-location-btn">Batu Kawan <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="batu-maung.html" class="seo-location-btn">Batu Maung <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="batu-uban.html" class="seo-location-btn">Batu Uban <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bayan-baru.html" class="seo-location-btn">Bayan Baru <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bayan-lepas.html" class="seo-location-btn">Bayan Lepas <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bayanlepas-r.html" class="seo-location-btn">Bayan Lepas Repair <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bertam.html" class="seo-location-btn">Bertam <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bukit-jambul.html" class="seo-location-btn">Bukit Jambul <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bukit-mertajam.html" class="seo-location-btn">Bukit Mertajam <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bukit-minyak.html" class="seo-location-btn">Bukit Minyak <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bukit-tambun.html" class="seo-location-btn">Bukit Tambun <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="bukit-tengah.html" class="seo-location-btn">Bukit Tengah <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="butterworth.html" class="seo-location-btn">Butterworth <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="butterworth-r.html" class="seo-location-btn">Butterworth Repair <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="gelugor.html" class="seo-location-btn">Gelugor <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="georgetown.html" class="seo-location-btn">George Town <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="greenlane.html" class="seo-location-btn">Greenlane <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="jawi.html" class="seo-location-btn">Jawi <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="jelutong.html" class="seo-location-btn">Jelutong <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="juru.html" class="seo-location-btn">Juru <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="kepala-batas.html" class="seo-location-btn">Kepala Batas <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="kota-permai.html" class="seo-location-btn">Kota Permai <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="kulim-r.html" class="seo-location-btn">Kulim Repair <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="mak-mandin.html" class="seo-location-btn">Mak Mandin <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="nibong-tebal.html" class="seo-location-btn">Nibong Tebal <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="paya-terubong.html" class="seo-location-btn">Paya Terubong <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="penaga.html" class="seo-location-btn">Penaga <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="penanti.html" class="seo-location-btn">Penanti <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="perai.html" class="seo-location-btn">Perai <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="perai-r.html" class="seo-location-btn">Perai Repair <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="permatang-pauh.html" class="seo-location-btn">Permatang Pauh <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="pulau-tikus.html" class="seo-location-btn">Pulau Tikus <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="relau.html" class="seo-location-btn">Relau <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="seberang-jaya.html" class="seo-location-btn">Seberang Jaya <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="simpang-ampat.html" class="seo-location-btn">Simpang Ampat <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="sungai-ara.html" class="seo-location-btn">Sungai Ara <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="sungai-dua.html" class="seo-location-btn">Sungai Dua <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="sungai-jawi.html" class="seo-location-btn">Sungai Jawi <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="sungai-nibong.html" class="seo-location-btn">Sungai Nibong <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="tanjung-bungah.html" class="seo-location-btn">Tanjung Bungah <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="tanjung-tokong.html" class="seo-location-btn">Tanjung Tokong <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="tasek-gelugor.html" class="seo-location-btn">Tasek Gelugor <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="teluk-bahang.html" class="seo-location-btn">Teluk Bahang <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
+                                <div class="col-6 col-md-4 col-lg-3"><a href="teluk-kumbar.html" class="seo-location-btn">Teluk Kumbar <i class="fa-solid fa-chevron-right text-warning fs-6"></i></a></div>
                             </div>
                         </div>
-
-                        <div class="accordion-item border-0 mb-2 shadow-sm rounded">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                                    Do you provide urgent repair services for jammed shutters?
-                                </button>
-                            </h2>
-                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body text-muted">
-                                    Yes! We offer rapid repair services for broken chains, jammed doors, and faulty motors throughout Penang Island and Seberang Perai.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item border-0 mb-2 shadow-sm rounded">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed rounded" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                                    How can I get a quotation for my shop or factory?
-                                </button>
-                            </h2>
-                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                                <div class="accordion-body text-muted">
-                                    Simply click the Call or WhatsApp button to share your location (e.g., Butterworth or Bayan Lepas) and estimated dimensions. We will get back to you with a prompt estimate.
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -614,8 +225,8 @@
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
         <div class="container">
-            <p class="mb-1 text-light fw-bold"><i class="fa-solid fa-phone text-warning me-2"></i> Hotline: <a href="tel:0174315233" class="text-warning text-decoration-none">017-431 5233</a></p>
-            <p class="mb-0 text-secondary" style="font-size: 0.85rem;">&copy; 2026 HTK Shutter. Trusted Roller Shutter Services in Butterworth, Bayan Lepas, Bukit Mertajam & All Penang Areas.</p>
+            <p class="mb-1 text-light fw-bold"><i class="fa-solid fa-phone text-warning me-2"></i> Call/WhatsApp: <a href="tel:0174315233" class="text-warning text-decoration-none">017-431 5233</a></p>
+            <p class="mb-0 text-secondary" style="font-size: 0.85rem;">&copy; 2026 HTK Pintu Shutter Penang. All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -628,7 +239,7 @@
                 </a>
             </div>
             <div class="col-6">
-                <a href="https://wa.me/60174315233?text=Hi,%20I%20would%20like%20to%20inquire%20about%20roller%20shutters%20in%20Penang" class="btn btn-whatsapp w-100 py-2 d-flex align-items-center justify-content-center">
+                <a href="https://wa.me/60174315233" class="btn btn-whatsapp w-100 py-2 d-flex align-items-center justify-content-center">
                     <i class="fa-brands fa-whatsapp me-2 fs-5"></i> WhatsApp
                 </a>
             </div>
