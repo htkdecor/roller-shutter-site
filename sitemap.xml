@@ -1,383 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 网站根主页 -->
+  <url>
+    <loc>https://htkdecor.com.my/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>1.00</priority>
+  </url>
 
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/air-itam.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/alma.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bagan-ajam.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bagan-jermal.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bagan-lalang.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/balik-pulau.html</loc>
-
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bandar-perda.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bandar-tasek-mutiara.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/batu-ferringhi.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/batu-kawan.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/batu-maung.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/batu-uban.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bayan-baru.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bayan-lepas.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bayanlepas-r.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bertam.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bukit-jambul.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bukit-mertajam.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bukit-minyak.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bukit-tambun.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/bukit-tengah.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/butterworth.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/butterworth-r.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/gelugor.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/georgetown.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/greenlane.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/jawi.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/jelutong.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/juru.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/kepala-batas.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/kota-permai.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/kulim-r.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/mak-mandin.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/nibong-tebal.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/paya-terubong.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/penaga.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/penanti.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/perai.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/perai-r.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/permatang-pauh.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/pulau-tikus.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/relau.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/seberang-jaya.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/simpang-ampat.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/sungai-ara.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/sungai-dua.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/sungai-jawi.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/sungai-nibong.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/tanjung-bungah.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/tanjung-tokong.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/tasek-gelugor.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/teluk-bahang.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
-<url>
-  <loc>https://rollershutter.htkdecor.com.my/teluk-kumbar.html</loc>
-  <lastmod>2026-09-10</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
-</url>
-
+  <!-- 地区子页面 -->
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/air-itam/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/alma/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bagan-ajam/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bagan-jermal/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bagan-lalang/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/balik-pulau/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bandar-perda/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bandar-tasek-mutiara/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/batu-ferringhi/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/batu-kawan/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/batu-maung/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/batu-uban/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bayan-baru/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bayan-lepas/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bertam/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bukit-jambul/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bukit-mertajam/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bukit-minyak/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bukit-tambun/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/bukit-tengah/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/butterworth/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/gelugor/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/georgetown/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/greenlane/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/jawi/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/jelutong/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/juru/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/kepala-batas/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/kota-permai/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/mak-mandin/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/nibong-tebal/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/paya-terubong/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/penaga/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/penanti/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/perai/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/permatang-pauh/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/pulau-tikus/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/relau/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/seberang-jaya/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/simpang-ampat/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/sungai-ara/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/sungai-dua/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/sungai-jawi/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/sungai-nibong/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/tanjung-bungah/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/tanjung-tokong/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/tasek-gelugor/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/teluk-bahang/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://htkdecor.com.my/roller-shutter/teluk-kumbar/</loc>
+    <lastmod>2026-03-16</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
